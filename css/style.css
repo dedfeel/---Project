@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+
+.head{
+    position: absolute;
+    z-index: 11;
+    height: 16%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+.headText{
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    margin-left : 10%;
+}
+
+.newYear20,.newYear25{
+    color: white;
+    position: absolute;
+    font-size: 2em;
+    z-index: 12;
+    top: 3%;
+    left: 4%;
+}
+.newYear25{
+    margin-top: 2%;
+    
+}
+.fon1{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.videoSnow{
+    position: fixed;
+    width: 100%;
+    z-index:0;
+}
+
+.section1Text1{
+    color: white;
+    position: absolute;
+    font-size: 10em;
+    top: 30%;
+    left: 35%;
+}
+    
+.section1Text2{
+    position: absolute;
+    color: white;
+    font-size:2em;
+    top:60%;
+    left: 20%;
+}
+
